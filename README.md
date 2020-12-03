@@ -12,7 +12,7 @@ The structure is as following:
 
 collection = category
 document = article
-```JSON
+```JS
 {
 	title: "",
 	is_extendable: true/false,
