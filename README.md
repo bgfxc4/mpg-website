@@ -23,4 +23,4 @@ document = article
 }
 ```
 
-you can request an article with an GET request on `https://domain.com/api/category/name`, all articles of a category with `https://domain.com/api/category` and all categorys with `https://domain/api/`.
+you can request an article with an GET request on `https://domain.com/api/get/category/name`, all articles of a category with `https://domain.com/api/get/category` and all categorys with `https://domain/api/get/`.
