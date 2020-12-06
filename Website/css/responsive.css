@@ -1,0 +1,30 @@
+/*
+    Responsive
+*/
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    /* ToDo */
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    /* ToDo */
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    /* ToDo */
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    /* ToDo */
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    /* ToDo */
+}
