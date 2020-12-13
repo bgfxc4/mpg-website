@@ -18,8 +18,6 @@ the articles are getting saved in an mongo database.
 The structure is as following:
 
 
-collection = category
-document = article
 ```JS
 {
 	title: "",
