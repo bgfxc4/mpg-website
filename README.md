@@ -17,15 +17,28 @@ Now you can run the server with `npm run start`.
 the articles are getting saved in an mongo database. 
 The structure is as following:
 
-
+category:
 ```JS
 {
-	title: "",
+	username: "", //username of the user who created this article
+	name: "", //name of the category
+	id: "", //unique id of the category
+	publication_date: "tt:mm:jjjj",
+	articles: [] // array of all articles
+}
+```
+
+article:
+```JS
+{
+	username: "", //username of the user who created this article
+	name: "", //name/title of the article
+	id: "", //unique id
 	is_extendable: true/false,
 	preview_text: "", //only if is_extendable is true, else undefined
 	main_text: "",
 	publication_date: "tt:mm:jjjj",
-	category: ""
+	category_id: "" //id of the category
 }
 ```
 
